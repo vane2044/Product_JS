@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/styleproduct.css" rel="stylesheet">
+        <meta name="Vanessa Campino" content="RG">
+        <meta charset="utf-8">
+        <script src="product.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3>Lab 7 JavaScript Artihmetic Operator</h3>
+        </header>
+        <section>
+            <form name="Operator Machine" id ="OperatorMachine" action='' method='GET'>
+                <fieldset>
+                    <legend>My Calculator</legend>
+                    <textarea name="output" id="product" rows="5" cols="25" ></textarea>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Input</legend>
+                    <lebel>Operands:</lebel>
+                    
+                    <input type="text" id="inp1" name="operation">
+                    <input type="text" id="inp2" name="operation"><br>
+                    
+                    <lebel>Operator:</lebel>
+                    <input type="button" name="Sum" value="+" onclick="addValue()"> 
+                    <input type="button" name="product" value="&times" onclick="productValue()">
+                    <input type="button" name="division" value=":" onclick="divisionValue()">
+                    <input type="reset" name="clear" value="Clear">
+                </fieldset>               
+            </form>
+        </section>
+    </body>
+   
+</html>
+

@@ -1,0 +1,22 @@
+input{
+   
+    margin: 5px 0;
+}
+    
+input#inp1, input#inp2 {
+   
+    width: 50px;
+    margin: 5px 0;
+}
+fieldset{
+    width: 220px;
+    padding: 10px 20px;
+    background-color:rgb(236, 187, 241);
+    margin-bottom: 10px;
+}
+
+legend{
+    background-color: rgb(133, 41, 141);
+    padding: 0 10px;
+    color: whitesmoke;
+}
